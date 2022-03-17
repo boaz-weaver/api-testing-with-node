@@ -7,3 +7,8 @@ services:
 
   tester:
     image: boazweaver/api-testing-with-node_tester
+    environment:
+      BACKEND_API: "${BACKEND_API}"
+    depends_on:
+      - server
+

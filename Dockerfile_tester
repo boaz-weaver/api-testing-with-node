@@ -4,6 +4,6 @@ COPY . .
 
 RUN npm install
 
-ENV BACKEND_API=192.168.33.210:5000
+ENV BACKEND_API=127.0.0.1:5000
 
 CMD npm test

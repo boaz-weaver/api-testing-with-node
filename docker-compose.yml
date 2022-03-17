@@ -1,0 +1,9 @@
+version: "3"
+services:
+  server: 
+    image: boazweaver/api-testing-with-node_server
+    ports:
+      - 5000:5000
+
+  tester:
+    image: boazweaver/api-testing-with-node_tester

@@ -1,0 +1,9 @@
+FROM node:17
+
+COPY . .
+
+RUN npm install
+
+ENV BACKEND_API=192.168.33.210:5000
+
+CMD npm test

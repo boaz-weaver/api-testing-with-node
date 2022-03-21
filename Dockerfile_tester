@@ -4,6 +4,6 @@ COPY . .
 
 RUN npm install
 
-ENV BACKEND_API=127.0.0.1:5000
+ENV BACKEND_API=boazweaver/api-testing-with-node_server
 
-CMD npm test
+run npm test
